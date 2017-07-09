@@ -1,0 +1,15 @@
+$('#order_billing_country')['val']('\(country!)');
+$('#order_billing_state')['val']('\(state!)');
+$('#g-recaptcha').remove();
+$('#order_billing_name')['val']('\(firstname!)');
+$('#order_email')['val']('\(email!)');
+$('#order_tel')['val']('\(number!)');
+$('#order_billing_address')['val']('\(address!)');
+$('#order_billing_city')['val']('\(city!)');
+$('#order_billing_zip')['val']('\(zipcode!)');
+$('#credit_card_type')['val']('\(card!)');
+$('#credit_card_n')['val']('\(cardnum!)');
+$('#credit_card_month')['val']('\(expmonth!)');
+$('#credit_card_year')['val']('\(expyear!)');
+$('#credit_card_cvv')['val']('\(CVV!)');
+$('#order_terms')['prop']('checked', true);

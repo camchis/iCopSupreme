@@ -1,0 +1,6 @@
+[submodule "Frameworks/Eureka"]
+	path = Frameworks/Eureka
+	url = https://github.com/xmartlabs/Eureka.git
+[submodule "git/Eureka"]
+	path = git/Eureka
+	url = https://github.com/xmartlabs/Eureka.git

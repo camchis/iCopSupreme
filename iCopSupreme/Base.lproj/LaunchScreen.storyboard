@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gam-og-dI6">
+                                <rect key="frame" x="179" y="157" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gam-og-dI6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="369" id="5gM-ih-eoe"/>
+                            <constraint firstItem="gam-og-dI6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="179" id="XmH-bd-NIQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gam-og-dI6" secondAttribute="bottom" constant="390" id="eqN-Eq-WuI"/>
+                            <constraint firstAttribute="trailing" secondItem="gam-og-dI6" secondAttribute="trailing" constant="179" id="kKr-8u-sq1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gam-og-dI6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="eqN-Eq-WuI"/>
+                                <exclude reference="5gM-ih-eoe"/>
+                                <exclude reference="XmH-bd-NIQ"/>
+                                <exclude reference="kKr-8u-sq1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gam-og-dI6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="eqN-Eq-WuI"/>
+                                <include reference="5gM-ih-eoe"/>
+                                <include reference="XmH-bd-NIQ"/>
+                                <include reference="kKr-8u-sq1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
