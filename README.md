@@ -1,4 +1,4 @@
-# iCopSupreme
+# iCopSupreme ![app icon](http://i.imgur.com/eNfPNQ4.png)
 Supreme bot for iOS
 
 Automatically finds product you want to buy (according to your keywords), selects size + colour, solves captcha and then checks out.
