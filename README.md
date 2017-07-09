@@ -5,6 +5,8 @@ Automatically finds product you want to buy (according to your keywords), select
 
 DOM based atm, uses supremenewyork.com mobile site.
 
+Supreme's web store is currently closed so can't test it for a while rip.
+
 TO DO:
 
 * Switch to browserless/Add browserless feature
