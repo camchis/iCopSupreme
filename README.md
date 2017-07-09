@@ -8,4 +8,5 @@ DOM based atm, uses supremenewyork.com mobile site.
 TO DO:
 
 * Switch to browserless/Add browserless feature
+* ^^^Will lead to redesign + improved UI
 * Make captcha solver better
